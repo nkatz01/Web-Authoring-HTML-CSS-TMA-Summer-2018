@@ -1,0 +1,328 @@
+@font-face {
+	font-family: 'bebas neue';
+	src: url('../fonts/BebasNeue-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	
+}
+@font-face {
+	font-family: 'roboto slabbold';
+	src: url('../fonts/RobotoSlab-Bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+/*
+Some of the anchors included in this file. 
+.headerlinks
+.page
+.pageheader
+.primary
+#topcontainer
+#rightTopContainer
+#bottomcontainer
+#leftbottomcontainer
+#sendusmsg
+#bottomcontainerright
+#toprightbottomcontainer
+#signup
+.controlgroup
+[type=text]
+[type=email]
+[type=submit]
+.pagefooter
+.headerlinks ul li
+.primary ul li 
+a
+#mailLableStar 
+*/
+ body {
+ 	 font-family:  Verdana, Geneva, sans-serif;
+	 font-size: 16px;
+ }
+.page {
+	width: 90%;
+ 	background-color: #ffffff ;
+    border: 1.5px solid lightgrey;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 16px;
+	
+}
+
+
+.headerlinks{
+
+	float: right; 
+	margin-top:  1em; 
+	overflow: hidden;
+	margin-right: 1.5em;
+	font-family:   Verdana, Geneva, sans-serif;
+	 font-size: 16px;
+	letter-spacing: -1px;	 
+	
+}
+
+ .headerlinks ul li {
+	 float: left; 
+	 font-weight: bold;
+	 margin-left: 1em; 
+ 	 
+ }
+ .headerlinks a { 
+	color: #016008;
+ 	white-space: nowrap;
+	font-size: small; 
+	text-decoration: none;
+ }
+   
+ .pageheader{ /*do not add margin*/
+	 
+ 	 margin : 1.5%;	 
+	 float: left;
+ 	overflow: hidden;
+}
+h1 {
+	 font-family: 'bebas neue',  Verdana, Geneva, sans-serif;
+	 font-size: 30px;
+	 color: #016008;
+	text-shadow: 1px 1px 0 #000000;
+}
+#boot {
+	 
+	font-size: 48px;
+}
+ 
+ 
+
+a , ul {
+	list-style-type: none;
+
+}
+
+.primary {
+	clear: left;
+ 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	 
+  		 overflow: hidden;
+		 
+
+	}
+ 
+ .primary ul li {
+	 float: left; 
+	 font-weight: bold;
+	  
+	 display: block;
+	 
+ }
+ .primary a {
+	  background-color:#cccccc;
+	  color: black;
+	 float: left; 
+	 font-weight: bold;
+	 margin-right: 1em; 
+	border-radius: 0.125em;
+	box-shadow: 2.5px 2.5px 0 0 #3e3e3e;
+	 padding-top: 0.25em; 
+	 padding-left: 1em; 
+	 padding-bottom:  0.25em; 
+	 padding-right: 1em; 
+	 text-decoration: none; 
+	 display: block;  
+	
+ }
+  .primary .current {
+	 
+ 	background-color:   #f6f6f6;
+}
+ 
+
+ 
+#topcontainer{
+	clear: left; 
+ 	overflow: hidden;
+ 	 
+    border: 1.5px solid lightgrey;
+		 margin : 1.5%;
+	  flex-wrap: wrap;
+}
+#rightTopContainer{
+	width: 46%;
+	float: left;
+	 
+ 	  margin: 1% ;/*done*/
+ 	  	padding-bottom: 2em;
+
+	  overflow: hidden;
+}
+#rightTopContainer p {
+		  padding-top: 1em; 
+padding-right: 0%;
+}
+ 
+
+img{
+	float: left;
+	width: 48%;
+ 	 
+    border: 1.5px solid lightgrey;
+	  margin : 1%;/*done*/
+}
+ 
+#bottomcontainer { /*add padding/marging to the right with caution*/
+	/*padding-top: 0.5em;
+	padding-bottom: 0.5em;*/
+	overflow: hidden;
+	 
+    border: 1.5px solid lightgrey;
+	 margin : 1.5%;
+ }
+ h2 #bottomcontainer {
+	 float: left;
+ 
+ }
+#leftbottomcontainer {/*new in the shop*/
+	float:left;
+	width: 65%;
+	background-color: #dddddd;
+    color: #016008;
+ 	 margin-left: 0.5%;/*handle with caution*/
+	 margin-top: 1.5em;
+	 overflow: hidden;
+	 padding-top: 1.5em;
+	 padding-bottom: 3em;
+	 
+}
+.blackFont {
+	color: black;
+	font-weight: bold;
+}
+ p {
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+  h2, h3{
+	 margin-left: 0.35em;
+  }
+  
+ h1, h2, h3 {
+	padding-top: 0.5em;
+	
+}
+#leftbottomcontainer p {
+padding-bottom: 0.5em;
+}
+
+
+
+#toprightbottomcontainer {/*latestnews*/
+	float:left;
+	width: 33%;
+	background-color: #dddddd;
+   
+	margin-left: 0.5%;/*handle with caution*/
+	margin-right: 0.25%;/*handle with caution*/
+	margin-bottom: 0.5em;
+	
+	
+
+	overflow: hidden;
+	
+}
+
+ .textalign {
+	float: right; 
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-style: italic;
+ }
+.highlightGreen , article a:first-of-type {
+	color: #016008;
+	
+ }
+ 
+ #rightTopContainer  a {
+	 text-decoration: none;
+ }
+#bottomcontainerright{/*suscribe*/
+	float:left;
+	width: 33%;
+	background-color: #dddddd;
+    
+	margin-left: 0.5%;/*handle with caution*/
+	margin-right: 0.25%;/*handle with caution*/
+	margin-bottom: 0.5em;
+	overflow: hidden;
+}
+ .controlgroup {
+	  
+ }
+ 
+ form {
+	 margin: auto;
+	  
+ }
+ label {
+	font-weight: bold; 
+
+ 
+}
+fieldset{
+	margin: 1em;
+	padding: 0.5em  ;
+	 border:  1px solid black; 
+	 background-color:#ffffff  ;
+ 	
+	
+}
+#signup {
+	margin: 3%;
+	padding-bottom: 0.125em;
+ }
+ #mailLableStar {
+	 color: red;
+ }
+input[type=submit] {
+	border: 1px solid grey;
+	border-radius: 0.25em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin: 0.25em;
+}
+#fname ,#mail {
+	width: 95%;
+	  
+ }
+ 
+ .controlgroup {
+	 padding-bottom: 0.125em;
+	 padding-top: 0.5em;
+ }
+.pagefooter {
+ 	background-color:#dddddd;
+    border: 1.5px solid lightgrey;
+	margin-top: 1.5%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+  h2, h3, form legend, nav {
+	font-family: 'bebas neue',  Verdana, Geneva, sans-serif;
+	font-size: 20px; 
+}
+ h2, h3 {
+	font-size: 24px;
+ }
+
+p{
+		
+	font-family:  Verdana, Geneva, sans-serif;
+}
+
